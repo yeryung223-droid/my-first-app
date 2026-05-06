@@ -1,36 +1,52 @@
-# my-first-app
-## Description
-This is my **first** app on streamlit.
+# Hello, SKKU! 🎓
 
-`print("This is my first app on streamlit")`
+A simple introductory web application built with [Streamlit](https://streamlit.io/).
 
-**bold**
-*italic*
-~~strikethrough~~
-`inline code`
+## 📋 Overview
 
-- Item one
-- Item two
-  - Nested item
- 
-  - 1. First
-2. Second
-3. Third
+This is a beginner-friendly web app that displays a welcome message. It serves as a starting point for building interactive Python web applications using Streamlit.
 
-[Link text](https://example.com)
-![Alt text](image-url.jpg)
+## 🚀 Getting Started
 
-> This is a quote.
-> It can span multiple lines.
+### Prerequisites
 
-```python
-# fenced code block
-print("Hello!")
+- Python 3.7 or higher
+- pip
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   pip install streamlit
+   ```
+
+### Running the App
+
+```bash
+streamlit run app.py
 ```
-| Name  | Age |
-|-------|-----|
-| Alice | 30  |
-| Bob   | 25  |
 
-- [x] Done
-- [ ] Not done
+The app will open automatically in your browser at `http://localhost:8501`.
+
+## 📁 Project Structure
+
+```
+your-repo-name/
+└── app.py        # Main Streamlit application
+```
+
+## 🛠️ Built With
+
+- [Streamlit](https://streamlit.io/) - The web framework used
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
